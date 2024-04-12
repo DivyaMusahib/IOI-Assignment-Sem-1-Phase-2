@@ -91,11 +91,3 @@ sum(case when medal = 'gold' then 1 else 0 end) as gold_count
 from olympics
 group by event,name
 having silver_count != '0'and gold_count != '0';
-
-
-
-
-
-
-
-

@@ -8,8 +8,8 @@ app = Flask(__name__)
 # Database connection details (replace with your credentials)
 db_config = {
     "host": "localhost",
-    "user": "hided",
-    "password": "mark47",
+    "user": "divya",
+    "password": "abc",
     "database": "registration_db"
 }
 
